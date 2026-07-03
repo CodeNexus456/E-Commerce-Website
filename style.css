@@ -43,6 +43,8 @@ body {
 
 /* Main Navbar*/
 .navbar{
+  /* position: fixed; */
+  width: 94%;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -93,6 +95,7 @@ body {
    transform: translateY(15px);
    transition: 0.3s;
 }
+
 
 .box1 {
   margin-top: 30px;
@@ -164,4 +167,80 @@ body {
 .btn-icon input:hover{
   background-color: rgba(128, 128, 128, 0.134);
   border-radius: 0 1.5rem 1.5rem 0;
+}
+
+/* Discount */
+
+.discount {
+  text-align: center;
+  margin-top: 10px;
+}
+.discount p{
+  color: rgba(0, 0, 0, 0.641);
+  font-size: 15px;
+}
+
+.discount a{
+  margin-top: 20px;
+  color: rgba(28, 13, 13, 0.775);
+  font-size: 13px;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.video {
+  height: 600px;
+  margin-top: 20px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow:0 10px 30px rgba(0,0,0,.3);
+  opacity:0.8;
+  z-index:-1;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+/* Featured */
+
+.feature {
+  margin-top: 100px;
+}
+.feature h2{
+  margin-left: 50px;
+}
+.imgbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.box2 img {
+  width: 100%;
+  cursor: pointer;
+  background-size: cover;
+}
+/* trending */
+.trending{
+  margin-top: 100px;
+}
+
+.trending h2{
+  margin-left: 100px;
+}
+.box4 {
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.trending .box3 {
+  height: 500px;
+  width: 400px;
+  background-color: red;
+}
+
+.trending .box3 img {
+  height: 500px;
+  width: 400px;
+  cursor: pointer;
 }
