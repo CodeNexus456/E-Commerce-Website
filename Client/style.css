@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'arial';
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* navbar */
+
+.nav{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+  padding:4px 48px;
+  height: 36px;
+  color: #111111;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #f5f5f5;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #111111;
+
+}
+.nav a:hover {
+  color: gray;
+} 
+
+.nav button{
+   font-size: 12px;
+   border: none;
+   cursor: pointer;
+}
+.nav button:hover {
+  color: gray;
+} 
+
+/* Main Navbar*/
+.navbar{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+  background-color: #ffffff;
+}
+
+.navbar img {
+  height: 50px;
+}
+
+.navbar .nav-para ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  /* font-weight: 505; */
+}
+
+.navbar .nav-para ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.nav-items {
+  position: relative;
+  cursor: pointe;
+  font-size: 18px;
+}
+
+/* hover - box */
+
+.hover-box {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+   opacity: 0;
+   visibility: hidden;
+   transform: translateY(15px);
+   transition: 0.3s;
+}
+
+.box1 {
+  margin-top: 30px;
+}
+.box1 h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.box1 h3:hover {
+  color: gray;
+}
+
+.box1 a {
+  font-size: 12px;
+  text-decoration: none;
+  color: gray;
+}
+
+.box1 a:hover {
+  color: black;
+}
+
+.nav-items:hover .hover-box {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
+.navbar .btn-icon {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn-icon .fa-magnifying-glass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* top: 56px; */
+  border-radius: 1.5rem 0 0 1.5rem;
+  height: 36px;
+  background-color: #f5f5f5;
+  
+}
+
+.navbar .fa-regular{
+  margin-top: 8px;
+}
+
+.btn-icon .fa-magnifying-glass:hover {
+
+  background-color: rgba(128, 128, 128, 0.174);
+}
+.btn-icon input {
+  position: relative;
+  height: 36px;
+  width: 180px;
+  border-radius: 0 1.5rem 1.5rem 0;
+  padding: 0 0 0 10px;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+}
+
+.btn-icon input:hover{
+  background-color: rgba(128, 128, 128, 0.134);
+  border-radius: 0 1.5rem 1.5rem 0;
+}
