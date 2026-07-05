@@ -207,6 +207,7 @@ body {
 }
 .feature h2{
   margin-left: 50px;
+  font-weight: 400;
 }
 .imgbox {
   display: flex;
@@ -225,6 +226,7 @@ body {
 
 .trending h2{
   margin-left: 100px;
+  font-weight: 400;
 }
 .box4 {
   display: flex;
@@ -246,4 +248,60 @@ body {
   background-size: cover;
   position: relative;
 }
+/* Sport */
 
+.sport-main h2 {
+  margin-top: 100px;
+  margin-left: 100px;
+  font-weight: 400;
+}
+.sport {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  margin:0px 100px 0 100px;
+}
+
+.sport::-webkit-scrollbar{
+  display: none;
+}
+
+.sport .box4 {
+  height: 500px;
+  width: 400px;
+  background-color: red;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.sport .box4 img{
+  width: 400px;
+  background-size: cover;
+  cursor: pointer;
+}
+/* footer */
+.footer {
+  height: 100px;
+  background-color: rgb(248, 196, 145);
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0 100px;
+}
+
+.footer img {
+  width: 100px;
+  
+
+}
+
+.footer #img {
+  border-radius: 10px;
+}
+
+.footer h1 {
+  font-size: 70px;
+}
