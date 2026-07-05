@@ -243,4 +243,7 @@ body {
   height: 500px;
   width: 400px;
   cursor: pointer;
+  background-size: cover;
+  position: relative;
 }
+
