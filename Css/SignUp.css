@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../images/login1.avif");
+  background-size:  cover;
+  
+
+}
+
+.login {
+  background-color: rgba(128, 128, 128, 0.213);
+  padding: 35px 20px 35px 20px;
+  border-radius: 1rem;
+  box-shadow: 2px 3px 10px gray;
+  transition: 0.5s;
+  cursor: pointer;
+  width: 350px;
+}
+.login:hover {
+  transform: scale(1.005);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.box-p {
+  text-align: center;
+}
+
+.box-p h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.box-p p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: gray;
+  opacity: 0.8;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  border-radius: 0.8rem;
+  border: none;
+  outline: hidden;
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+
+.input-box button {
+  height: 48px;
+  width: 100%;
+  border-radius: 1.5rem;
+  border: none;
+  margin-top: 1.5rem;
+  font-weight: 550;
+  background-color: black;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  
+}
+.input-box button:hover {
+  transform: scale(1.03);
+  background-color: rgba(128, 128, 128, 0.944);
+}
+
+.input-box p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: gray;
+  text-align: center;
+}
+
+.input-box span {
+  color: black;
+}
