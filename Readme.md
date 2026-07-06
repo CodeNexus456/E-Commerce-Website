@@ -97,7 +97,7 @@ ecommerce/
 ## 📸 Screenshots
 
 * Home Page
-![Home](screenshots/images/home.page.png)
+![Home](screenshots/images/home-page.png)
 * Product Listing
 * Product Details
 * Shopping Cart
