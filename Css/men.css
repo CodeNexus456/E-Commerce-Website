@@ -280,7 +280,6 @@
 .trending .box3 {
   height: 500px;
   width: 400px;
-  background-color: red;
 }
 
 .trending .box3 img {
@@ -313,7 +312,6 @@
 .sport .box4 {
   height: 500px;
   width: 400px;
-  background-color: red;
   scroll-snap-align: start;
   flex-shrink: 0;
 }
